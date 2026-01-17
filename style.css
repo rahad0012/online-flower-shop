@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common design section  */
+.btn-primary{
+    background-color: rgb(220, 53, 69);
+    padding: 15px 25px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-primary:hover{
+    background-color:rgb(231, 35, 55) ;
+    transform: scale(1.2);
+}
+
+/* headeer section style  */
+.hero-section {
+    width: 100%;
+    background-color: rgb(252, 239, 241);
+}
+
+.header-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.header-text-box h1{
+    font-size: 5.20rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header-text-box p{
+    padding: 20px 0;
+    color: gray;
+}
+.header-image img{
+    padding-top: 50px;
+}
