@@ -5,7 +5,7 @@
 }
 
 /* common design section  */
-.btn-primary{
+.btn-primary {
     background-color: rgb(220, 53, 69);
     padding: 15px 25px;
     color: white;
@@ -15,13 +15,14 @@
     cursor: pointer;
     transition: 0.3s;
 }
+
 /* .featured-card{
     max-width: 400px;
     padding-top: 150px;
     border: 2px solid red;
 } */
-.btn-primary:hover{
-    background-color:rgb(231, 35, 55) ;
+.btn-primary:hover {
+    background-color: rgb(231, 35, 55);
     transform: scale(1.2);
 }
 
@@ -37,80 +38,98 @@
     display: flex;
     gap: 100px;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-around;
 }
-.header-text-box h1{
+
+.header-text-box h1 {
     font-size: 3.20rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.header-text-box p{
+
+.header-text-box p {
     padding: 20px 0;
     font-size: 16px;
     color: gray;
 }
-.header-image img{
+
+.header-image img {
     padding-top: 50px;
     width: 80%;
     height: 100%;
+    transition: transform 1s;
 }
+
+.hero-section:hover .header-image img {
+    transform: scale(1.1);
+}
+
 /* featured section style  */
-.featured-section{
+.featured-section {
     max-width: 1440px;
-    margin: 100px auto ;
+    margin: 100px auto;
     text-align: center;
 }
-.featured-section h3{
+
+.featured-section h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.25rem;
     padding: 25px 0;
 }
-.featured-section p{
+
+.featured-section p {
     color: grey;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.featured-card-box{
+
+.featured-card-box {
     width: 1200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 100px auto;
     gap: 20px;
 }
+
 .car-image1,
 .car-image2,
-.car-image3{
+.car-image3 {
     background-color: rgb(252, 239, 241);
     height: 400px;
     width: 350px;
-    border-radius:50% 50% 0 0 ;
+    border-radius: 50% 50% 0 0;
 }
-.car-image2{
-    background-color:rgba(151, 226, 226, 0.452);
+
+.car-image2 {
+    background-color: rgba(151, 226, 226, 0.452);
 }
-.car-image3{
-    background-color:rgba(155, 179, 114, 0.425) ;
+
+.car-image3 {
+    background-color: rgba(155, 179, 114, 0.425);
 }
+
 .car-image1 img,
 .car-image2 img,
-.car-image3 img{
+.car-image3 img {
     height: 100%;
     padding-top: 150px;
 }
 
- .featured-card-link{ 
+.featured-card-link {
     max-width: 1200px;
     margin: -80px 250px 0 190px;
     display: flex;
     justify-content: space-around;
     gap: 250px;
 }
-.featured-card-link a{
+
+.featured-card-link a {
     font-size: 16px;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     color: black
 }
-.service-container{
+
+.service-container {
     max-width: 1200px;
     height: 200px;
     margin: 0 auto 100px;
@@ -122,78 +141,331 @@
     align-items: center;
     align-content: space-around;
 }
-.your-service{
+
+.your-service {
     text-align: center;
 }
-.your-service img{
+
+.your-service img {
     width: 80px;
 }
-.your-service h5{
+
+.your-service h5 {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     color: gray;
     padding: 10px 0;
 }
-.discount-section{
+
+.discount-section {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
     height: 500px;
 }
-.discount-text-box{
+
+.discount-text-box {
     width: 500px;
     text-align: center;
 }
-.discount-text-box h2{
+
+.discount-text-box h2 {
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
+    transition: transform 1s;
 }
-.best-deal{
+
+.discount-section:hover .discount-text-box h2 {
+    transform: scaleX(1.1);
+}
+
+.discount-section:hover .discount-image img {
+    transform: scale(1.2);
+}
+
+.best-deal {
     color: rgb(170, 16, 16);
 }
-.discount-text-box p{
+
+.discount-text-box p {
     padding: 20px 0;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     color: gray;
 }
-.discount-image img{
+
+.discount-image img {
     height: 50%;
     width: 80%;
+    transition: transform 1s;
 }
+
 /* instragram sectin  */
-.instragram-section{
+.instragram-section {
     max-width: 1200px;
     margin: 100px auto;
 }
-.instragram-text-box{
+
+.instragram-text-box {
     text-align: center;
 }
-.instragram-text-box h3{
+
+.instragram-text-box h3 {
     font-size: 2.5rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
-.instragram-text-box p{
+
+.instragram-text-box p {
     padding: 20px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     color: gray;
 }
-.instragram-image-box{
+
+.instragram-image-box {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     margin: 20px 0;
+
 }
-.instragram-image-box img{
+
+.instragram-image-box img {
     width: 100%;
     border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.instragram-image-box img:hover {
+    transform: scale(1.1);
 }
 
 /* instragram sectin  */
+.best-deal-container {
+    max-width: 1200px;
+    background-image: url(./images/Rectangle\ 9.png);
+    margin: 0 auto 100px;
+    padding: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.best-deal-container h3 {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.best-deal-container p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: gray;
+    padding: 20px;
+}
+
+.deal-form input {
+    padding: 15px 300px 15px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-section {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(22, 22, 22, 0.932);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.footer-section h3 {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.footer-section h3 span {
+    color: rgb(209, 74, 74);
+}
+
+.footer-describtion {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgb(190, 184, 184);
+    padding: 20px;
+}
+
+.footer-section p {
+    padding-top: 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgb(190, 184, 184);
+}
+
+
+/* responcive design here  */
+/* miduam divice */
+@media screen and (min-width:567px) and (max-width:992px) {
+    .header-container {
+        margin: 0 50px;
+    }
+
+    .header-text-box h1 {
+        font-size: 2rem;
+    }
+
+    .featured-card-box {
+        width: 100%;
+        margin: 60px auto;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 50px;
+    }
+
+    .car-image1,
+    .car-image2,
+    .car-image3 {
+        width: 300px;
+        height: 380px;
+    }
+
+    .featured-card-link {
+        margin: 20px auto 0;
+        max-width: 600px;
+        gap: 80px;
+    }
+    .featured-card-link a{
+        text-decoration: none;
+        padding: 10px 15px;
+        background-color: rgb(212, 50, 50);
+        color: white;
+        border: none;
+        border-radius: 8px;
+    }
+    .service-container{
+        width: 80%;
+    }
+    .instragram-image-box{
+        width: 80%;
+        margin: 20px auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .best-deal-container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .deal-form input{
+        margin: 10px 0;
+    }
+}
+
+/* mobile device  */
+@media screen and (max-width: 567px) {
+  .header-container {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .header-text-box h1 {
+    font-size: 1.8rem;
+  }
+
+  .header-image img {
+    width: 90%;
+    padding-top: 0;
+  }
+
+  .featured-section {
+    margin: 60px auto;
+    padding: 0 15px;
+  }
+
+  .featured-card-box {
+    width: 100%;
+    grid-template-columns: 1fr;
+    margin: 40px auto;
+    gap: 40px;
+    justify-items: center;
+  }
+
+  .car-image1,
+  .car-image2,
+  .car-image3 {
+    width: 260px;
+    height: 330px;
+  }
+
+  .featured-card-link {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 10px auto 0;
+  }
+
+  .featured-card-link a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(212, 50, 50);
+    color: white;
+    border-radius: 6px;
+  }
+
+  .service-container {
+    grid-template-columns: 1fr;
+    height: auto;
+    gap: 30px;
+    padding: 30px 0;
+    width: 90%;
+  }
+
+  .discount-section {
+    flex-direction: column;
+    height: auto;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .discount-text-box {
+    width: 100%;
+  }
+
+  .discount-image img {
+    width: 70%;
+  }
+
+  .instragram-image-box {
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 30px auto;
+    gap: 20px;
+  }
+
+  .best-deal-container {
+    width: 90%;
+    padding: 50px 20px;
+  }
+
+  .deal-form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  .footer-section {
+    height: auto;
+    padding: 60px 20px;
+  }
+}
