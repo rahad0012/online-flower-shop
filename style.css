@@ -87,7 +87,7 @@
     background-color:rgba(151, 226, 226, 0.452);
 }
 .car-image3{
-    background-color:rgba(139, 160, 103, 0.507) ;
+    background-color:rgba(155, 179, 114, 0.425) ;
 }
 .car-image1 img,
 .car-image2 img,
@@ -95,15 +95,72 @@
     height: 100%;
     padding-top: 150px;
 }
-.featured-card-link{ 
+
+ .featured-card-link{ 
     max-width: 1200px;
-    margin: -80px 250px 0 250px;
+    margin: -80px 250px 0 190px;
     display: flex;
-    gap: 270px;
+    justify-content: space-around;
+    gap: 250px;
 }
 .featured-card-link a{
     font-size: 16px;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     color: black
+}
+.service-container{
+    max-width: 1200px;
+    height: 200px;
+    margin: 0 auto 100px;
+    background-color: rgba(223, 218, 218, 0.507);
+    border-radius: 8px;
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    align-content: space-around;
+}
+.your-service{
+    text-align: center;
+}
+.your-service img{
+    width: 80px;
+}
+.your-service h5{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: gray;
+    padding: 10px 0;
+}
+.discount-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 500px;
+}
+.discount-text-box{
+    width: 500px;
+    text-align: center;
+}
+.discount-text-box h2{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.best-deal{
+    color: rgb(170, 16, 16);
+}
+.discount-text-box p{
+    padding: 20px 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: gray;
+}
+.discount-image img{
+    height: 50%;
+    width: 80%;
 }
